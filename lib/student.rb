@@ -135,4 +135,5 @@ def self.all
     sql = "DROP TABLE IF EXISTS students"
     DB[:conn].execute(sql)
   end
+
 end
